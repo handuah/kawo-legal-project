@@ -1,0 +1,110 @@
+
+body{
+    overflow-x: hidden;
+}
+nav{
+    height: 20%;
+    background: transparent !important;
+    outline: none;
+    border: none !important;
+}
+.navbar-right{
+    padding: 3% 0;
+}
+.navigation{
+    background: rgb(61, 10, 5) !important;
+}
+.selected{
+    border: 2px solid #D14233 !important;
+    background: transparent !important;
+}
+.navbar-right  a{
+    color: #D14233 !important;
+    font-weight: 600;
+    /* font-size: 1.7rem; */
+}
+.navbar-right a:hover{
+    border: 2px solid #D14233;
+    /* padding: 10px 10px; */
+}
+.navbar-brand img{
+    width: 200px;
+}
+
+.jumbotron{
+    background: linear-gradient(to bottom, #2b0303e3, #dc242454),
+    url(../img/banner-2.jpeg) no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.text-white{
+    color: white;
+}
+.header-caption{
+    margin-top: 12%;
+    margin-left: 32%;
+    width: 500px;
+}
+.header-caption h2{
+    font-size: 3em;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.header-caption p{
+    font-size: 2em;
+}
+.btn-info{
+    width: 40%;
+    /* height: 40% !important; */
+}
+#content-grid{
+    margin: 2% 0;
+}
+.startup-heading{
+    font-size: 2rem;
+}
+.left .thumbnail{
+    height: 100px !important;
+    width: 100px;
+   
+}
+.thumbnail{
+    outline: none !important;
+    border: none;
+}
+.right p{
+    line-height: 20px;
+}
+footer{
+    background: rgb(61, 10, 5);
+}
+.footer-home{
+    margin-top: -2%;
+}
+footer p{
+    padding: 5% 0 !important;
+}
+
+.icons{
+    margin-top: 5% ;
+    margin-left: 45%;
+}
+.icons i.fab{
+    padding: 0 10%;
+}
+.icon-color{
+    color: aqua;
+    margin: 0 5%;
+}
+.fa-2x{
+    font-size: 20px;
+}
+
+#forms-kawo{
+    margin: 3% 20%;
+}
+#login-kawo{
+    margin: 8% 20%;
+    /* height: 70% !important; */
+}
